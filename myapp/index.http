@@ -1,0 +1,43 @@
+POST http://localhost:3000/register/
+Content-Type: application/json
+
+{
+  "username": "vasu",
+  "name": "vasundhra",
+  "email": "vasu@gmail.com",
+  "password": "vasu123",
+  "gender": "female",
+  "contact_number": 5675464548,
+  "address": "708, modinagar", 
+  "city": "Mzn",
+  "country": "India",
+  "age": 45 
+}
+
+###
+
+POST http://localhost:3000/login/
+Content-Type: application/json
+
+{
+  "username": "vasu",
+  "password": "vasu123"
+}
+
+###
+GET http://localhost:3000/posts/?order=DESC
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InZhc3UiLCJpYXQiOjE3MTQ2NjI2MTZ9.T-kbsVajqVnjDstHl-HG-kDWntbVm3HFsEoTy3uySzA
+
+###
+
+POST http://localhost:3000/posts/
+Content-Type: application/json
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InZhc3UiLCJpYXQiOjE3MTQ2NjI2MTZ9.T-kbsVajqVnjDstHl-HG-kDWntbVm3HFsEoTy3uySzA
+
+{
+ "post_id": 6,
+ "title": "DIY Home Decor: Creative Ideas to Spruce Up Your Space",
+ "desc": " Looking to refresh your living space without breaking the bank? Get inspired with these creative DIY home decor ideas that will add a personal touch to any room.",
+ "tag" : "Decor",
+ "image": "https://res.cloudinary.com/dz6uvquma/image/upload/v1714655651/p6_image_vok49j.jpg"   
+}
