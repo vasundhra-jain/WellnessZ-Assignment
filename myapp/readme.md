@@ -48,6 +48,8 @@
 ### Submission Instructions
 
 #### Must Have
+  - Create a public Github Repository for the assignment
+  - Share the recorded Video of the assignment
 
 #### Nice to Have
 
@@ -55,6 +57,12 @@
   - Share Postman Collection with attached examples
 
 ## Resources
+
+### Links
+  - Postman Collection Link-> https://www.postman.com/altimetry-specialist-38974868/workspace/my-workspace/collection/34670579-91911a00-ba63-4895-bb07-186a71753b47?action=share&creator=34670579 
+
+  - Video Recording Link -> https://drive.google.com/file/d/1D5bPIRhVSf4pMJh8I2YA7M3hodBAVNbH/view
+  - Github Repository Link -> https://github.com/vasundhra-jain/WellnessZ-Assignment
 
 ### APIs
   - REGISTER USER API

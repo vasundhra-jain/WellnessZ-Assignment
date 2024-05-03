@@ -2,10 +2,10 @@ POST http://localhost:3000/register/
 Content-Type: application/json
 
 {
-  "username": "vasu",
-  "name": "vasundhra",
+  "username": "vasundhra",
+  "name": "vasundhra jain",
   "email": "vasu@gmail.com",
-  "password": "vasu123",
+  "password": "vasu1234",
   "gender": "female",
   "contact_number": 5675464548,
   "address": "708, modinagar", 
@@ -25,7 +25,7 @@ Content-Type: application/json
 }
 
 ###
-GET http://localhost:3000/posts/?order=DESC
+GET http://localhost:3000/posts/?order=DESC&tag=sweet
 Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InZhc3UiLCJpYXQiOjE3MTQ2NjI2MTZ9.T-kbsVajqVnjDstHl-HG-kDWntbVm3HFsEoTy3uySzA
 
 ###
